@@ -53,8 +53,8 @@ Projekt może posłużyć jako baza do dalszej nauki i rozwijania umiejętności
 
 ## 🚀 Uruchomienie
 1. Pobierz repozytorium:  
-   `git clone https://github.com/Devoane/python-utility-functions.git`  
+   `git clone (https://github.com/KrzysztofTurko/python-intro.git)
 2. Przejdź do katalogu:  
-   `cd python-utility-functions`  
+   `cd python-intro`  
 3. Uruchom program:  
-   `python task_1.py`
+   `python zadanie_1.py`
