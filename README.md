@@ -93,5 +93,5 @@ cd python-intro
 
 Uruchom główny plik programu:
 
-python zadanie_1.py
+python task_1.py
 
