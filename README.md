@@ -1,60 +1,60 @@
-# *The Python Utility Functions*
+# *Funkcje Użytkowe w Pythonie*
 
-## 📌 Description
-**The Python Utility Functions** project is a colection of basic functions that make it easier to work with data in Python.
-It is designed in a modular way, which makes the code redable and easy to develop.
+## 📌 Opis
+**Funkcje Użytkowe w Pythonie** to projekt zawierający zestaw podstawowych funkcji, które ułatwiają pracę z danymi w Pythonie.  
+Kod został zaprojektowany w sposób modułowy, co sprawia, że jest czytelny i łatwy do rozbudowy.  
 
-The main functionalities include random data generation, mathematic operations, sorting, exception handling, and measuring execution time.
-The project can be used as a basis for futher learning and developing programming skills.
+Główne funkcjonalności obejmują generowanie losowych danych, operacje matematyczne, sortowanie, obsługę wyjątków oraz mierzenie czasu wykonywania operacji.  
+Projekt może posłużyć jako baza do dalszej nauki i rozwijania umiejętności programistycznych.
 
-## ⚙ Functionalities
+## ⚙ Funkcjonalności
 
-### 🔹 1. **Generating random data**
-- Creates a random list of integers between 0 and 100
-- Creates a random list of letters from A-Z
-- Each run generates new values
+### 🔹 1. **Generowanie losowych danych**
+- Tworzy listę losowych liczb całkowitych z zakresu od 0 do 100.
+- Tworzy listę losowych liter od A do Z.
+- Każde uruchomienie generuje nowe wartości.
 
-### 🔹 2. **Combining lists with `zip()`**
-- Creates a list of `(number, letter)` pairs, e.g. `[(23, 'A'), (5, 'X')]`
-- Useful for processing related data
+### 🔹 2. **Łączenie list za pomocą `zip()`**
+- Tworzy listę par `(liczba, litera)`, np. `[(23, 'A'), (5, 'X')]`.
+- Przydatne do przetwarzania powiązanych danych.
 
-### 🔹 3. **Data operations**
-- **Sorting a list of numbers** – uses the `sorted()` function
-- **Calculating square roots** – `math.sqrt()` calculates the square roots of positive numbers
-- The results are saved in new lists
+### 🔹 3. **Operacje na danych**
+- **Sortowanie listy liczb** – wykorzystuje funkcję `sorted()`.
+- **Obliczanie pierwiastków kwadratowych** – `math.sqrt()` oblicza pierwiastki z liczb dodatnich.
+- Wyniki są zapisywane w nowych listach.
 
-### 🔹 4. **Exception handling**
-- `ZeroDivisionError` – handling division by zero error
-- `TypeError` – protection against data type errors
-- The `safe_division()` function returns the result or an error message
+### 🔹 4. **Obsługa wyjątków**
+- `ZeroDivisionError` – obsługa błędu dzielenia przez zero.
+- `TypeError` – zabezpieczenie przed błędami związanymi z typami danych.
+- Funkcja `safe_division()` zwraca wynik lub komunikat błędu.
 
-### 🔹 5. **Code execution time measurement**
-- `time.time()` measures the start and end time of the operation
-- The result is given in seconds
+### 🔹 5. **Pomiar czasu wykonywania kodu**
+- `time.time()` mierzy czas rozpoczęcia i zakończenia operacji.
+- Wynik podawany jest w sekundach.
 
-## 🛠 Python Modules
-- **Python 3** – [Official Documentation](https://docs.python.org/3/)
-- **Standard modules:**
-  - `math` – [Documentation](https://docs.python.org/3/library/math.html)
-    - [`math.sqrt(x)`](https://docs.python.org/3/library/math.html#math.sqrt) – calculates the square root of `x`
-  - `random` – [Documentation](https://docs.python.org/3/library/random.html)
-    - [`random.randint(a, b)`](https://docs.python.org/3/library/random.html#random.randint) – randomizes an integer from the range `[a, b]`
-    - [`random.sample(population, k)`](https://docs.python.org/3/library/random.html#random.sample) – Selects `k` random unique elements from a list 
-  - `time` – [Documentation](https://docs.python.org/3/library/time.html)
-    - [`time.time()`](https://docs.python.org/3/library/time.html#time.time) – returns time in seconds since UNIX epoch
-- **Python built-in functions:**
-  - [`zip()`](https://docs.python.org/3/library/functions.html#zip) – combines elements from several lists into pairs
-  - [`sorted()`](https://docs.python.org/3/library/functions.html#sorted) – returns a sorted list
-  - [`chr()`](https://docs.python.org/3/library/functions.html#chr) – converts an integer to its corresponding Unicode character
-  - [`isinstance()`](https://docs.python.org/3/library/functions.html#isinstance) – checks if an object is an instance of a specific type or class
-- **Exception handling:**
-  - [`ZeroDivisionError`](https://docs.python.org/3/library/exceptions.html#ZeroDivisionError) – exception when dividing by zero
-  - [`TypeError`](https://docs.python.org/3/library/exceptions.html#TypeError) – exception for invalid data type
+## 🛠 Moduły Pythona
+- **Python 3** – [Oficjalna dokumentacja](https://docs.python.org/3/)
+- **Moduły standardowe:**
+  - `math` – [Dokumentacja](https://docs.python.org/3/library/math.html)
+    - [`math.sqrt(x)`](https://docs.python.org/3/library/math.html#math.sqrt) – oblicza pierwiastek kwadratowy z `x`.
+  - `random` – [Dokumentacja](https://docs.python.org/3/library/random.html)
+    - [`random.randint(a, b)`](https://docs.python.org/3/library/random.html#random.randint) – losuje liczbę całkowitą z zakresu `[a, b]`.
+    - [`random.sample(population, k)`](https://docs.python.org/3/library/random.html#random.sample) – wybiera `k` unikalnych elementów z listy.
+  - `time` – [Dokumentacja](https://docs.python.org/3/library/time.html)
+    - [`time.time()`](https://docs.python.org/3/library/time.html#time.time) – zwraca czas w sekundach od epoki UNIX.
+- **Wbudowane funkcje Pythona:**
+  - [`zip()`](https://docs.python.org/3/library/functions.html#zip) – łączy elementy z kilku list w pary.
+  - [`sorted()`](https://docs.python.org/3/library/functions.html#sorted) – zwraca posortowaną listę.
+  - [`chr()`](https://docs.python.org/3/library/functions.html#chr) – konwertuje liczbę całkowitą na odpowiadający jej znak Unicode.
+  - [`isinstance()`](https://docs.python.org/3/library/functions.html#isinstance) – sprawdza, czy obiekt jest instancją określonego typu lub klasy.
+- **Obsługa wyjątków:**
+  - [`ZeroDivisionError`](https://docs.python.org/3/library/exceptions.html#ZeroDivisionError) – wyjątek przy dzieleniu przez zero.
+  - [`TypeError`](https://docs.python.org/3/library/exceptions.html#TypeError) – wyjątek związany z nieprawidłowym typem danych.
 
-## 🚀 Launch
-1. Download the repository:
-  `git clone https://github.com/Devoane/python-utility-functions.git)`
-2. Go to directory:
-  `cd python-utility-functions`
-3. Run the program:
-  `python task_1.py`
+## 🚀 Uruchomienie
+1. Pobierz repozytorium:  
+   `git clone https://github.com/Devoane/python-utility-functions.git`  
+2. Przejdź do katalogu:  
+   `cd python-utility-functions`  
+3. Uruchom program:  
+   `python task_1.py`
