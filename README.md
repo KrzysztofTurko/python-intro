@@ -1,6 +1,6 @@
 # *Funkcje Użytkowe w Pythonie*
 
-## 📌 Opis
+## 🖊️ Opis
 **Funkcje Użytkowe w Pythonie** to projekt zawierający zestaw podstawowych funkcji, które ułatwiają pracę z danymi w Pythonie.  
 Kod został zaprojektowany w sposób modułowy, co sprawia, że jest czytelny i łatwy do rozbudowy.  
 
@@ -28,11 +28,11 @@ Projekt może posłużyć jako baza do dalszej nauki i rozwijania umiejętności
 - `TypeError` – zabezpieczenie przed błędami związanymi z typami danych.
 - Funkcja `safe_division()` zwraca wynik lub komunikat błędu.
 
-### 🔹 5. **Pomiar czasu wykonywania kodu**
+### 🕚 5. **Pomiar czasu wykonywania kodu**
 - `time.time()` mierzy czas rozpoczęcia i zakończenia operacji.
 - Wynik podawany jest w sekundach.
 
-## 🛠 Moduły Pythona
+## 📂 Moduły Pythona
 - **Python 3** – [Oficjalna dokumentacja](https://docs.python.org/3/)
 - **Moduły standardowe:**
   - `math` – [Dokumentacja](https://docs.python.org/3/library/math.html)
