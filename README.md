@@ -53,7 +53,7 @@ Projekt może posłużyć jako baza do dalszej nauki i rozwijania umiejętności
 
 ## 🚀 Uruchomienie
 1. Pobierz repozytorium:  
-   git clone https://github.com/KrzysztofTurko/python-intro.git)
+   git clone https://github.com/KrzysztofTurko/python-intro.git
 2. Przejdź do katalogu:  
    `cd python-intro`  
 3. Uruchom program:  
